@@ -11,7 +11,7 @@ parser.add_argument('-o', '--out', help="Output file")
 
 input_type = parser.add_mutually_exclusive_group()
 input_type.add_argument('-f', '--files', help="Input files", nargs='+')
-input_type.add_argument('-d', '--dir', help="Input directory", nargs='+')
+input_type.add_argument('-d', '--dir', help="Input directory")
 
 
 def main():
